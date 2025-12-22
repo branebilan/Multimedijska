@@ -1,0 +1,159 @@
+header {
+    background-color: rgb(56, 42, 18);
+    height: 120px;
+    width: 1900px;
+    opacity: 0.8;
+}
+
+.naslov {
+    font-size: 55px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-left: 345px;
+    padding-top: 30px;
+}
+
+nav {
+    background-color: rgb(118, 106, 85);
+    height: 60px;
+    width: 1900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.navitem {
+    font-size: 30px;
+    color: black;
+    padding-top: 2px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 25px;
+    margin-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navitem:hover {
+    background-color: rgb(218, 192, 128);
+    transition: 1s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navclick {
+    font-size: 30px;
+    color: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.anketa {
+    display: block;
+    height: 250px;
+    width: 200px;
+    background-color: lightgray;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.gornji-flexbox {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin-left: 2px;
+}
+
+.donji-flexbox {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin-left: 2px;
+}
+
+
+
+.pochetna {
+    display: block;
+    height: 390px;
+    width: 650px;
+    background-color: darkgray;
+    margin-top: 20px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.pochetna-dva {
+    display: block;
+    height: 390px;
+    width: 650px;
+    background-color: darkgray;
+    margin-top: 80px;
+    margin-left: 102px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.dobrodoshlica {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 223px;
+    margin-top: 30px;
+}
+
+.poddobrodoshlica {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.forme {
+    margin-top: 5px;
+    width: 100px;
+    height: 120px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.dicmo {
+    margin-top: 5px;
+    width: 580px;
+    height: 290px;
+    margin-left: 37px;
+    margin-bottom: 5px;
+}
+
+.povijest-section {
+    height: 390px;
+    width: 640px;
+    background-color: darkgray;
+    margin-top: 20px;
+    margin-left: 65px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.povijest-paragraph {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.kolodvor-slika {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.linkovi {
+    display: inline-block;
+}
+
+.link2 {
+    display: inline-block;
+}
